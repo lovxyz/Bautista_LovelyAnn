@@ -3,6 +3,7 @@ define('PREVENT_DIRECT_ACCESS', TRUE);
 /**
  * ------------------------------------------------------------------
  * LavaLust - an opensource lightweight PHP MVC Framework
+ * Lab 2 - Automatic Deployment Test
  * ------------------------------------------------------------------
  *
  * MIT License
