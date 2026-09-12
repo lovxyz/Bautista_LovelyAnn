@@ -18,7 +18,7 @@ class StudentController extends Controller
     }
 
     public function profile()
-{
-    $this->call->view('student/profile');
-}
+    {
+        $this->call->view('student/profile');
+    }
 }
