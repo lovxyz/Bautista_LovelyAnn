@@ -30,7 +30,7 @@ foreach ($users as $u) {
                 $_SESSION['user_id'] = $user['id'];
                 $_SESSION['username'] = $user['username'];
 
-                header('Location: /login');
+                header('Location: /products');
                 exit;
 
             } else {
