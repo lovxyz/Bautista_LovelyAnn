@@ -1,6 +1,8 @@
 <?php
 defined('PREVENT_DIRECT_ACCESS') OR exit('No direct script access allowed');
-
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
 class LoginController extends Controller
 {
     public function login()
