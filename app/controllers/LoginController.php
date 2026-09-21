@@ -28,7 +28,7 @@ foreach ($users as $u) {
                 $_SESSION['user_id'] = $user['id'];
                 $_SESSION['username'] = $user['username'];
 
-                header('Location: /Lab1/LavaLust/public/index.php/products');
+                header('Location: /login');
                 exit;
 
             } else {
@@ -43,7 +43,7 @@ foreach ($users as $u) {
 {
     session_destroy();
 
-    header('Location: /Lab1/LavaLust/public/index.php/login');
+    header('Location: /login');
     exit;
 }
 }
